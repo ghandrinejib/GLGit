@@ -6,7 +6,7 @@
 struct element {
     struct element *next;
     void* contenu;
-};
+
 
 liste creerliste() {
     liste l = (liste) malloc (sizeof(struct element));
